@@ -7,7 +7,7 @@ ADD https://releases.hashicorp.com/consul/0.6.3/consul_0.6.3_linux_amd64.zip /tm
 ADD https://releases.hashicorp.com/consul/0.6.3/consul_0.6.3_web_ui.zip /tmp/web_ui.zip
 
 # Add Consul Data Directory
-RUN mkdir -p /var/lib/consul
+RUN mkdir -p /var/lib/consul/webui
 
 # Install the consul agent and web ui.
 RUN unzip /tmp/consul.zip -d /usr/local/bin/
