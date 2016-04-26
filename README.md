@@ -1,6 +1,7 @@
 ### [Consul](https://consul.io) Docker container
 
 This image is based on the official Docker's Consul image.
+Most of the logic is in the base image. This one just adds the web interface for Consul.
 
 
 ### License

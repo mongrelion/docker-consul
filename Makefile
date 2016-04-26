@@ -1,5 +1,7 @@
+VER := 0.6.4
+
 build:
-	@docker build -t mongrelion/consul:0.6.3 .
+	@docker build -t mongrelion/consul:${VER} .
 
 run:
-	@docker run --rm -it mongrelion/consul:0.6.3
+	@docker run --rm -it mongrelion/consul:${VER}
