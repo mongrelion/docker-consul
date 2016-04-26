@@ -1,6 +1,6 @@
 ### [Consul](https://consul.io) Docker container
 
-This image is based on the [Glider Lab's Alpine](https://registry.hub.docker.com/u/gliderlabs/alpine) lightweight Docker image.
+This image is based on the official Docker's Consul image.
 
 
 ### License
