@@ -11,3 +11,7 @@ RUN mkdir -p ${WEBUIDIR} && unzip /tmp/webui.zip -d ${WEBUIDIR}
 
 # Remove temp files
 RUN rm /tmp/webui.zip
+
+ENTRYPOINT ["/bin/consul"]
+
+CMD ["agent", "-data-dir=/consul/data", "-config-dir=/consul/config"]
